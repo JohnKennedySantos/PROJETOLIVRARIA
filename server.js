@@ -3,16 +3,16 @@ const fs = require('fs');
 const path = require('path');
 
 const server = http.createServer((req, res) => {
-  // Verificando o caminho do URL da requisição
+
   let filePath = '.' + req.url;
   if (filePath === './') {
     filePath = './index.html';
   }
 
-  // Obtendo a extensão do arquivo
+
   const extname = String(path.extname(filePath)).toLowerCase();
 
-  // Definindo os tipos MIME para diferentes extensões de arquivo
+
   const mimeTypes = {
     '.html': 'text/html',
     '.js': 'text/javascript',
