@@ -7,7 +7,7 @@ body {
   
   .topo {
     text-align: center;
-    margin-top: 50px; /* Espaçamento superior para centralizar verticalmente */
+    margin-top: 50px; 
     padding: 0 20px;
   }
   
@@ -21,7 +21,7 @@ body {
   }
   
   .btn-topo {
-    margin: 0 10px; /* Espaçamento horizontal entre os botões */
+    margin: 0 10px; 
     padding: 10px 20px;
     background-color: #28a745;
     color: #fff;
@@ -54,7 +54,7 @@ body {
   
   .form input[type="text"],
   .form input[type="number"] {
-    width: calc(100% - 20px); /* Ajusta a largura para permitir a margem interna */
+    width: calc(100% - 20px); 
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -62,17 +62,16 @@ body {
   }
   
   .form textarea {
-    width: calc(100% - 20px); /* Ajusta a largura para permitir a margem interna */
+    width: calc(100% - 20px); 
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    resize: none; /* Impede a redimensionamento do textarea */
+    resize: none; 
   }
   
   .form button[type="submit"] {
-    width: calc(100% - 20px); /* Ajusta a largura para permitir a margem interna */
-    padding: 10px;
+    width: calc(100% - 20px); 
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -103,7 +102,7 @@ body {
   .livro button {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #004085; /* Cor azul escura */
+    background-color: #004085; 
     color: #fff;
     border: none;
     border-radius: 5px;
